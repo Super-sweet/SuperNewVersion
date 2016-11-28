@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SuperNewVersion"
-  s.version      = "0.0.6"
+  s.version      = "1.0.0"
   s.summary      = "版本更新提示"
   s.homepage     = "https://github.com/Super-sweet/SuperNewVersion"
   s.license      =  "MIT"
