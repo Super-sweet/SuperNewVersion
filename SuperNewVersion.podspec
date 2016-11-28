@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SuperNewVersion"
-  s.version      = "0.0.4"
+  s.version      = "0.0.6"
   s.summary      = "版本更新提示"
   s.homepage     = "https://github.com/Super-sweet/SuperNewVersion"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      =  "MIT"
 
   s.author             = { "Super-sweet" => "347393193@qq.com" }
  
