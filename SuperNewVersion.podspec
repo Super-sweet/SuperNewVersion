@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SuperNewVersion"
-  s.version      = "0.0.3"
-  s.summary      = "版本更新弹框"
+  s.version      = "0.0.4"
+  s.summary      = "版本更新提示"
   s.homepage     = "https://github.com/Super-sweet/SuperNewVersion"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "8.0"
 
 
-  s.source       = { :git => "https://github.com/Super-sweet/SuperNewVersion.git", :tag => "{s.version}" }
+  s.source       = { :git => "https://github.com/Super-sweet/SuperNewVersion.git", :tag => {s.version} }
   s.source_files  = "SuperNewVersion", "*.{h,m}"
   s.requires_arc = true
 end
