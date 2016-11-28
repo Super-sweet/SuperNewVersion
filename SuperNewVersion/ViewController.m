@@ -1,13 +1,12 @@
 //
 //  ViewController.m
-//  demo1
+//  SuperNewVersion
 //
-//  Created by xuchao on 16/11/24.
+//  Created by xuchao on 16/11/28.
 //  Copyright © 2016年 xuchao. All rights reserved.
 //
 
 #import "ViewController.h"
-
 #import "XCversion.h"
 
 @interface ViewController ()
@@ -19,14 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-   }
-- (IBAction)appstore:(id)sender {
+}
+- (IBAction)openAppStoreClick:(id)sender {
     [XCversion checkNewVersionWithType:NewVersionTypeAppStore];
 }
 
-- (IBAction)insideApp:(id)sender {
-    [XCversion checkNewVersionWithType:NewVersionTypeInsiderApp];
+- (IBAction)openInsideApp:(id)sender {
+     [XCversion checkNewVersionWithType:NewVersionTypeInsiderApp];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -18,20 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2QT-JU-S5E">
-                                <frame key="frameInset" minX="157" minY="167" width="61" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Gm-kW-QDZ">
+                                <frame key="frameInset" minX="122" minY="174" width="99" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="appstore"/>
+                                <state key="normal" title="openAppStore"/>
                                 <connections>
-                                    <action selector="appstore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xgQ-Ss-AXQ"/>
+                                    <action selector="openAppStoreClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SZ7-ww-RqH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3d-Wa-6mm">
-                                <frame key="frameInset" minX="153" minY="298" width="68" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZc-22-yIS">
+                                <frame key="frameInset" minX="120" minY="350" width="103" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="insideApp"/>
+                                <state key="normal" title="openInsideApp"/>
                                 <connections>
-                                    <action selector="insideApp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kLr-hp-nUc"/>
+                                    <action selector="openInsideApp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eud-kB-09t"/>
                                 </connections>
                             </button>
                         </subviews>

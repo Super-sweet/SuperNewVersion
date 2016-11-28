@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02E023781DE684E5009ADBD2"
-               BuildableName = "demo1.app"
-               BlueprintName = "demo1"
-               ReferencedContainer = "container:demo1.xcodeproj">
+               BlueprintIdentifier = "02A0B0671DEC051D002DE238"
+               BuildableName = "SuperNewVersion.app"
+               BlueprintName = "SuperNewVersion"
+               ReferencedContainer = "container:SuperNewVersion.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02E023911DE684E5009ADBD2"
-               BuildableName = "demo1Tests.xctest"
-               BlueprintName = "demo1Tests"
-               ReferencedContainer = "container:demo1.xcodeproj">
+               BlueprintIdentifier = "02A0B0801DEC051D002DE238"
+               BuildableName = "SuperNewVersionTests.xctest"
+               BlueprintName = "SuperNewVersionTests"
+               ReferencedContainer = "container:SuperNewVersion.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02E0239C1DE684E5009ADBD2"
-               BuildableName = "demo1UITests.xctest"
-               BlueprintName = "demo1UITests"
-               ReferencedContainer = "container:demo1.xcodeproj">
+               BlueprintIdentifier = "02A0B08B1DEC051D002DE238"
+               BuildableName = "SuperNewVersionUITests.xctest"
+               BlueprintName = "SuperNewVersionUITests"
+               ReferencedContainer = "container:SuperNewVersion.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02E023781DE684E5009ADBD2"
-            BuildableName = "demo1.app"
-            BlueprintName = "demo1"
-            ReferencedContainer = "container:demo1.xcodeproj">
+            BlueprintIdentifier = "02A0B0671DEC051D002DE238"
+            BuildableName = "SuperNewVersion.app"
+            BlueprintName = "SuperNewVersion"
+            ReferencedContainer = "container:SuperNewVersion.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02E023781DE684E5009ADBD2"
-            BuildableName = "demo1.app"
-            BlueprintName = "demo1"
-            ReferencedContainer = "container:demo1.xcodeproj">
+            BlueprintIdentifier = "02A0B0671DEC051D002DE238"
+            BuildableName = "SuperNewVersion.app"
+            BlueprintName = "SuperNewVersion"
+            ReferencedContainer = "container:SuperNewVersion.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02E023781DE684E5009ADBD2"
-            BuildableName = "demo1.app"
-            BlueprintName = "demo1"
-            ReferencedContainer = "container:demo1.xcodeproj">
+            BlueprintIdentifier = "02A0B0671DEC051D002DE238"
+            BuildableName = "SuperNewVersion.app"
+            BlueprintName = "SuperNewVersion"
+            ReferencedContainer = "container:SuperNewVersion.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

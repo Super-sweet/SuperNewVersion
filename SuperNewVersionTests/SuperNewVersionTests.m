@@ -1,18 +1,18 @@
 //
-//  demo1Tests.m
-//  demo1Tests
+//  SuperNewVersionTests.m
+//  SuperNewVersionTests
 //
-//  Created by xuchao on 16/11/24.
+//  Created by xuchao on 16/11/28.
 //  Copyright © 2016年 xuchao. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface demo1Tests : XCTestCase
+@interface SuperNewVersionTests : XCTestCase
 
 @end
 
-@implementation demo1Tests
+@implementation SuperNewVersionTests
 
 - (void)setUp {
     [super setUp];

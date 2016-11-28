@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  demo1
+//  SuperNewVersion
 //
-//  Created by xuchao on 16/11/24.
+//  Created by xuchao on 16/11/28.
 //  Copyright © 2016年 xuchao. All rights reserved.
 //
 
