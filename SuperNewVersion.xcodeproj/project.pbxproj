@@ -15,9 +15,9 @@
 		02A0B07B1DEC051D002DE238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A0B0791DEC051D002DE238 /* LaunchScreen.storyboard */; };
 		02A0B0861DEC051D002DE238 /* SuperNewVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A0B0851DEC051D002DE238 /* SuperNewVersionTests.m */; };
 		02A0B0911DEC051D002DE238 /* SuperNewVersionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A0B0901DEC051D002DE238 /* SuperNewVersionUITests.m */; };
-		02A0B0A51DEC0572002DE238 /* XCAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A0B0A01DEC0572002DE238 /* XCAppInfo.m */; };
-		02A0B0A61DEC0572002DE238 /* XCversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A0B0A21DEC0572002DE238 /* XCversion.m */; };
-		02A0B0A71DEC0572002DE238 /* XCVersionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A0B0A41DEC0572002DE238 /* XCVersionRequest.m */; };
+		02BDD43C1DEE6AE2004C20A4 /* XCAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BDD4371DEE6AE2004C20A4 /* XCAppInfo.m */; };
+		02BDD43D1DEE6AE2004C20A4 /* XCVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BDD4391DEE6AE2004C20A4 /* XCVersion.m */; };
+		02BDD43E1DEE6AE2004C20A4 /* XCVersionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BDD43B1DEE6AE2004C20A4 /* XCVersionRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +54,13 @@
 		02A0B08C1DEC051D002DE238 /* SuperNewVersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperNewVersionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A0B0901DEC051D002DE238 /* SuperNewVersionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperNewVersionUITests.m; sourceTree = "<group>"; };
 		02A0B0921DEC051D002DE238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02A0B09E1DEC0572002DE238 /* SingleDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleDefine.h; sourceTree = "<group>"; };
-		02A0B09F1DEC0572002DE238 /* XCAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAppInfo.h; sourceTree = "<group>"; };
-		02A0B0A01DEC0572002DE238 /* XCAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAppInfo.m; sourceTree = "<group>"; };
-		02A0B0A11DEC0572002DE238 /* XCversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCversion.h; sourceTree = "<group>"; };
-		02A0B0A21DEC0572002DE238 /* XCversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCversion.m; sourceTree = "<group>"; };
-		02A0B0A31DEC0572002DE238 /* XCVersionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCVersionRequest.h; sourceTree = "<group>"; };
-		02A0B0A41DEC0572002DE238 /* XCVersionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCVersionRequest.m; sourceTree = "<group>"; };
+		02BDD4351DEE6AE2004C20A4 /* SingleDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleDefine.h; sourceTree = "<group>"; };
+		02BDD4361DEE6AE2004C20A4 /* XCAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAppInfo.h; sourceTree = "<group>"; };
+		02BDD4371DEE6AE2004C20A4 /* XCAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAppInfo.m; sourceTree = "<group>"; };
+		02BDD4381DEE6AE2004C20A4 /* XCVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCVersion.h; sourceTree = "<group>"; };
+		02BDD4391DEE6AE2004C20A4 /* XCVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCVersion.m; sourceTree = "<group>"; };
+		02BDD43A1DEE6AE2004C20A4 /* XCVersionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCVersionRequest.h; sourceTree = "<group>"; };
+		02BDD43B1DEE6AE2004C20A4 /* XCVersionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCVersionRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,13 +111,7 @@
 		02A0B06A1DEC051D002DE238 /* SuperNewVersion */ = {
 			isa = PBXGroup;
 			children = (
-				02A0B09E1DEC0572002DE238 /* SingleDefine.h */,
-				02A0B09F1DEC0572002DE238 /* XCAppInfo.h */,
-				02A0B0A01DEC0572002DE238 /* XCAppInfo.m */,
-				02A0B0A11DEC0572002DE238 /* XCversion.h */,
-				02A0B0A21DEC0572002DE238 /* XCversion.m */,
-				02A0B0A31DEC0572002DE238 /* XCVersionRequest.h */,
-				02A0B0A41DEC0572002DE238 /* XCVersionRequest.m */,
+				02BDD4341DEE6AE2004C20A4 /* SuperNewVersion */,
 				02A0B06E1DEC051D002DE238 /* AppDelegate.h */,
 				02A0B06F1DEC051D002DE238 /* AppDelegate.m */,
 				02A0B0711DEC051D002DE238 /* ViewController.h */,
@@ -155,6 +149,20 @@
 				02A0B0921DEC051D002DE238 /* Info.plist */,
 			);
 			path = SuperNewVersionUITests;
+			sourceTree = "<group>";
+		};
+		02BDD4341DEE6AE2004C20A4 /* SuperNewVersion */ = {
+			isa = PBXGroup;
+			children = (
+				02BDD4351DEE6AE2004C20A4 /* SingleDefine.h */,
+				02BDD4361DEE6AE2004C20A4 /* XCAppInfo.h */,
+				02BDD4371DEE6AE2004C20A4 /* XCAppInfo.m */,
+				02BDD4381DEE6AE2004C20A4 /* XCVersion.h */,
+				02BDD4391DEE6AE2004C20A4 /* XCVersion.m */,
+				02BDD43A1DEE6AE2004C20A4 /* XCVersionRequest.h */,
+				02BDD43B1DEE6AE2004C20A4 /* XCVersionRequest.m */,
+			);
+			path = SuperNewVersion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,11 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A0B0731DEC051D002DE238 /* ViewController.m in Sources */,
-				02A0B0A71DEC0572002DE238 /* XCVersionRequest.m in Sources */,
+				02BDD43E1DEE6AE2004C20A4 /* XCVersionRequest.m in Sources */,
 				02A0B0701DEC051D002DE238 /* AppDelegate.m in Sources */,
-				02A0B0A51DEC0572002DE238 /* XCAppInfo.m in Sources */,
-				02A0B0A61DEC0572002DE238 /* XCversion.m in Sources */,
+				02BDD43C1DEE6AE2004C20A4 /* XCAppInfo.m in Sources */,
 				02A0B06D1DEC051D002DE238 /* main.m in Sources */,
+				02BDD43D1DEE6AE2004C20A4 /* XCVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

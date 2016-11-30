@@ -17,7 +17,7 @@ typedef NS_ENUM(NSUInteger, NewVersionType) {
 @class XCAppInfo;
 
 typedef void(^NewVersionBlock)(XCAppInfo* appInfo);
-@interface XCversion : NSObject
+@interface XCVersion : NSObject
 
 + (void)checkNewVersionWithType:(NewVersionType)type;
 

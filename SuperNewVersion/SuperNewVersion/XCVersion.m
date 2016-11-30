@@ -7,13 +7,13 @@
 //
 
 #import "SingleDefine.h"
-#import "XCversion.h"
+#import "XCVersion.h"
 #import "XCAppInfo.h"
 #import <UIKit/UIKit.h>
 #import <StoreKit/StoreKit.h>
 
 static NewVersionType Newtype;
-@interface XCversion ()<UIAlertViewDelegate,SKStoreProductViewControllerDelegate>
+@interface XCVersion ()<UIAlertViewDelegate,SKStoreProductViewControllerDelegate>
 
 
 @property(nonatomic,strong)XCAppInfo *appInfo;
@@ -21,13 +21,13 @@ static NewVersionType Newtype;
 @end
 
 
-@implementation XCversion
+@implementation XCVersion
 
-singleton_implementation(XCversion);
+singleton_implementation(XCVersion);
 + (void)checkNewVersionWithType:(NewVersionType)type {
 
     Newtype = type;
-    [[XCversion sharedInstance] checkNewVersion];
+    [[XCVersion sharedInstance] checkNewVersion];
 
 
 }

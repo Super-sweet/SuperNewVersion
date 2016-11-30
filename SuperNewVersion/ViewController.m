@@ -20,11 +20,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)openAppStoreClick:(id)sender {
-    [XCversion checkNewVersionWithType:NewVersionTypeAppStore];
+    [XCVersion checkNewVersionWithType:NewVersionTypeAppStore];
 }
 
 - (IBAction)openInsideApp:(id)sender {
-     [XCversion checkNewVersionWithType:NewVersionTypeInsiderApp];
+     [XCVersion checkNewVersionWithType:NewVersionTypeInsiderApp];
 }
 
 - (void)didReceiveMemoryWarning {
