@@ -94,10 +94,10 @@ singleton_implementation(XCVersion);
     return window;
 }
 -(void)openInAppStoreForAppURL:(NSString *)appURL{
-    
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
-    
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_10_0
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:appURL] options:@{} completionHandler:nil];
+#else
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:appURL]];
 #endif
 }
 - (void)versionRequest:(NewVersionBlock)newInfo {

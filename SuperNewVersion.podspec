@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SuperNewVersion"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "版本更新提示"
    s.description  = <<-DESC
 	一行代码实现版本提示更新
